@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+rm -f public/hot || true
+
 php -v || true
 
 # Ensure key exists via env; do not generate here.
